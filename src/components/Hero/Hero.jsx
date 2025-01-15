@@ -62,7 +62,10 @@ const Hero = () => {
         </div>
 
         {/* Get In Touch Button on the bottom right side */}
-        <div className="flex-shrink-0 md:flex md:justify-end w-full md:w-auto xl:px-16">
+        <div
+          className="flex-shrink-0 md:flex md:justify-end w-full md:w-auto xl:px-16"
+          onClick={() => window.open("https://t.me/Ali_Z1380")}
+        >
           <button className="flex items-center space-x-2 px-4 py-2 border-[1.5px] bg-transparent border-[#FFFFFF] rounded-[8px] text-[#FFF8DC] text-[18px] font-roboto mx-auto md:mx-0">
             <span>Get In Touch</span>
             <img
@@ -234,36 +237,75 @@ const Hero = () => {
               } mt-4 md:mt-8`}
             >
               <img
+                onClick={() => {
+                  window.open("https://t.me/JungoAI");
+                }}
                 src={
                   isMounted
                     ? "/assets/images/SocialMedia/Telegram.svg"
                     : "/assets/images/SocialMedia/Telegram-hover.svg"
                 }
                 alt="Telegram"
-                className={`transition-all ease-in-out duration-700 ${
+                className={`transition-all cursor-pointer ease-in-out duration-700 ${
                   isMounted ? "w-6 h-6" : "w-[11px] h-[10px]"
                 }`}
               />
               <img
+                onClick={() => {
+                  window.open("https://discord.gg/eJwekJkVQj");
+                }}
                 src={
                   isMounted
                     ? "/assets/images/SocialMedia/discord.svg"
                     : "/assets/images/SocialMedia/discord-hover.svg"
                 }
                 alt="Discord"
-                className={`transition-all ease-in-out duration-700 ${
+                className={`transition-all cursor-pointer ease-in-out duration-700 ${
                   isMounted ? "w-6 h-6" : "w-[11px] h-[10px]"
                 }`}
               />
               <img
+                onClick={() => {
+                  window.open("https://x.com/JungoAI");
+                }}
                 src={
                   isMounted
-                    ? "/assets/images/SocialMedia/Medium.svg"
-                    : "/assets/images/SocialMedia/Medium-hover.svg"
+                    ? "/assets/images/SocialMedia/x.svg"
+                    : "/assets/images/SocialMedia/x.svg"
                 }
-                alt="Medium"
-                className={`transition-all ease-in-out duration-700 ${
-                  isMounted ? "w-6 h-6" : "w-[11px] h-[10px]"
+                alt="x"
+                className={`transition-all cursor-pointer  ease-in-out duration-700 ${
+                  isMounted ? "w-5 h-5" : "w-[11px] h-[10px]"
+                }`}
+              />
+
+              <img
+                onClick={() => {
+                  window.open("https://github.com/jungoai");
+                }}
+                src={
+                  isMounted
+                    ? "/assets/images/SocialMedia/github.svg"
+                    : "/assets/images/SocialMedia/github.svg"
+                }
+                alt="Github"
+                className={`transition-all cursor-pointer  ease-in-out duration-700 ${
+                  isMounted ? "w-5 h-5" : "w-[11px] h-[10px]"
+                }`}
+              />
+
+              <img
+                onClick={() => {
+                  window.open("https://www.linkedin.com/company/jungoai");
+                }}
+                src={
+                  isMounted
+                    ? "/assets/images/SocialMedia/linkedin.svg"
+                    : "/assets/images/SocialMedia/linkedin.svg"
+                }
+                alt="Linkedin"
+                className={`transition-all cursor-pointer  ease-in-out duration-700 ${
+                  isMounted ? "w-5 h-5" : "w-[11px] h-[10px]"
                 }`}
               />
             </div>
