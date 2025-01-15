@@ -129,7 +129,7 @@ function Philosophy() {
                 public networks have demonstrated that open protocols and
                 collaborative solutions lead to superior technologies that
                 benefit everyone and address real-world problems more
-                effectively. Jungo AI aims to provide a similar public solution
+                effectively. JungoAI aims to provide a similar public solution
                 for AI and Big Data.
               </p>
 
@@ -145,7 +145,7 @@ function Philosophy() {
               <p className="text-[14px] md:text-[18px] bt-1440:text-[16px] bt-1920:text-[20px] bt-1440:leading-10 leading-8">
                 Most of today's AI algorithms are designed to be centralized,
                 requiring vast amounts of data and resources that only large
-                entities can collect and process. Jungo AI's goal is to leverage
+                entities can collect and process. JungoAI's goal is to leverage
                 Federated AI and Distributed Big Data to create a collaborative
                 knowledge network, enabling public participation and
                 democratizing access to AI and Big Data.

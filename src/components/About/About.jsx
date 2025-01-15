@@ -81,7 +81,7 @@ function About() {
             }}
           >
             <h2 className="text-[#FFF8DC] text-[16px] md:text-[24px] bt-1920:text-[30px] font-roboto font-semibold flex items-center justify-center h-full text-left">
-              Jungo AI is a public blockchain network that utilizes Federated AI
+              JungoAI is a public blockchain network that utilizes Federated AI
               and Big Data to forge a collaborative knowledge ecosystem.
             </h2>
           </div>
@@ -117,7 +117,7 @@ function About() {
           }}
         >
           <p className="text-[16px] md:text-[24px] bt-1920:text-[26px] leading-relaxed font-roboto text-[#FFF8DC]">
-            Jungo AI is a collaborative and decentralized blockchain that
+            JungoAI is a collaborative and decentralized blockchain that
             utilizes Federated AI and distributed Big Data to create a public
             and collaborative knowledge ecosystem.
           </p>

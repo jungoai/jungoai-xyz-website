@@ -11,8 +11,7 @@ const UseCases = () => {
       description:
         "[ AI and Big Data Layer for Blockchains ]\n[ Next Generation of deFi ]",
       image: "/assets/images/Usecase/image1.svg",
-      desc2:
-        "Blockchains store raw transactional data. Jungo AI subnets can...",
+      desc2: "Blockchains store raw transactional data. JungoAI subnets can...",
     },
     {
       id: "decentralized-ai",
@@ -20,8 +19,7 @@ const UseCases = () => {
       description:
         "[ Decentralized Computation ]\n[ AI in healthcare and Biotech ]",
       image: "/assets/images/Usecase/image1.svg",
-      desc2:
-        "Blockchains store raw transactional data. Jungo AI subnets can...",
+      desc2: "Blockchains store raw transactional data. JungoAI subnets can...",
     },
     {
       id: "federated-big-data",
@@ -29,8 +27,7 @@ const UseCases = () => {
       description:
         "[ Federated Business Intelligence ]\n[ Machine Learning as a Service ]\n[ Trustless knowledge network and Data Marketplace ]",
       image: "/assets/images/Usecase/image1.svg",
-      desc2:
-        "Blockchains store raw transactional data. Jungo AI subnets can...",
+      desc2: "Blockchains store raw transactional data. JungoAI subnets can...",
     },
   ];
 
