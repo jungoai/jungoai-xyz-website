@@ -141,7 +141,8 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="#build"
+                target="_blank"
+                href="https://github.com/jungoai"
                 className="text-[20px] font-bold block py-2 px-3 "
               >
                 Build
@@ -165,7 +166,8 @@ const Hero = () => {
             Tech
           </a>
           <a
-            href="#build"
+            target="_blank"
+            href="https://github.com/jungoai"
             className="text-[#FFF8DC] text-[16px] bt-1920:text-[20px] font-bold py-2 px-3 "
           >
             Build

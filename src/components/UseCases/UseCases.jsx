@@ -152,7 +152,12 @@ const UseCases = () => {
         </div>
 
         {/* Read More Section */}
-        <div className="flex flex-row items-center mt-8 space-x-2 text-white uppercase font-roboto text-[16px] cursor-pointer px-8">
+        <div
+          onClick={() =>
+            window.open("https://github.com/jungoai/jungo-echo-subnet")
+          }
+          className="flex flex-row items-center mt-8 space-x-2 text-white uppercase font-roboto text-[16px] cursor-pointer px-8"
+        >
           <span>Read More</span>
           <img
             src="/assets/images/News/chevron-right.svg"
